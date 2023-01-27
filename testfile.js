@@ -1,1 +1,1 @@
-console.log("test the git action workflow");
+console.log("test the git action workflow action");
