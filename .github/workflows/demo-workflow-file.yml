@@ -5,9 +5,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-  steps:
+    steps:
     - name: Checkout
     - uses: actions/checkout@v2
+    - name: echo the values below
       run: |
          echo This demo file shows a 
          echo very basic and easy-to-understand workflow.<div class="open_grepper_editor" title="Edit & Save To Grepper"></div>
